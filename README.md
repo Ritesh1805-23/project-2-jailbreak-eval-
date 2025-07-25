@@ -7,6 +7,7 @@ Prompt vulnerability testing of ChatGPT vs Claude using jailbreak prompts to eva
 This project evaluates how well leading large language models (LLMs) — specifically ChatGPT and Claude — respond to prompts designed to bypass safety filters, expose vulnerabilities, or manipulate behavior. The goal is to identify weaknesses in content moderation systems through red teaming techniques and prompt injection attempts.
 
 ##  Structure
+'''
 project-llm-jailbreak-eval/
 ├── analysis/
 │   └── comparison-notes.md
@@ -30,6 +31,7 @@ project-llm-jailbreak-eval/
 │       ├── 04_prompt_injection.md
 │       └── 05_safety_filter_bypass.md
 ├── README.md
+'''
 
 
 ##   Tasks
