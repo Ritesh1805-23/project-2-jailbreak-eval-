@@ -10,7 +10,8 @@ This project evaluates how well leading large language models (LLMs) — specifi
 ```
 project-llm-jailbreak-eval/
 ├── analysis/
-│   └── comparison-notes.md
+│   ├── comparison-notes.md
+│   └── verdicts.md
 ├── prompts/
 │   ├── 01_sensitive_info.md
 │   ├── 02_illegal_instruction.md
