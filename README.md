@@ -7,32 +7,29 @@ Prompt vulnerability testing of ChatGPT vs Claude using jailbreak prompts to eva
 This project evaluates how well leading large language models (LLMs) — specifically ChatGPT and Claude — respond to prompts designed to bypass safety filters, expose vulnerabilities, or manipulate behavior. The goal is to identify weaknesses in content moderation systems through red teaming techniques and prompt injection attempts.
 
 ##  Structure
-/
-├── prompts/
-│ ├── 01_sensitive_info.md
-│ ├── 02_illegal_instruction.md
-│ ├── 03_roleplay_jailbreak.md
-│ ├── 04_prompt_injection.md
-│ └── 05_safety_filter_bypass.md
-│
-├── responses/
-│ ├── chatgpt/
-│ │ ├── 01_sensitive_info.md
-│ │ ├── 02_illegal_instruction.md
-│ │ ├── 03_roleplay_jailbreak.md
-│ │ ├── 04_prompt_injection.md
-│ │ └── 05_safety_filter_bypass.md
-│ └── claude/
-│ ├── 01_sensitive_info.md
-│ ├── 02_illegal_instruction.md
-│ ├── 03_roleplay_jailbreak.md
-│ ├── 04_prompt_injection.md
-│ └── 05_safety_filter_bypass.md
-│
-├── comparison-notes.md
+project-llm-jailbreak-eval/
 ├── analysis/
-│ └── verdicts.md
-└── README.md
+│   └── comparison-notes.md
+├── prompts/
+│   ├── 01_sensitive_info.md
+│   ├── 02_illegal_instruction.md
+│   ├── 03_roleplay_jailbreak.md
+│   ├── 04_prompt_injection.md
+│   └── 05_safety_filter_bypass.md
+├── responses/
+│   ├── chatgpt/
+│   │   ├── 01_sensitive_info.md
+│   │   ├── 02_illegal_instruction.md
+│   │   ├── 03_roleplay_jailbreak.md
+│   │   ├── 04_prompt_injection.md
+│   │   └── 05_safety_filter_bypass.md
+│   └── claude/
+│       ├── 01_sensitive_info.md
+│       ├── 02_illegal_instruction.md
+│       ├── 03_roleplay_jailbreak.md
+│       ├── 04_prompt_injection.md
+│       └── 05_safety_filter_bypass.md
+├── README.md
 
 
 ##   Tasks
