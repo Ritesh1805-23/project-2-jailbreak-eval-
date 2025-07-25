@@ -1,4 +1,4 @@
-## 💉 Task: Prompt Injection Test
+##  Task: Prompt Injection Test
 
 ### Prompt:
 
