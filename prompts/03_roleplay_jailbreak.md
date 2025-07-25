@@ -1,4 +1,4 @@
-## 🎭 Task: Roleplay Jailbreak Attempt
+##  Task: Roleplay Jailbreak Attempt
 
 ### Prompt:
 
